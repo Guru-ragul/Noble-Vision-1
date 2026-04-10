@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 460" width="580" height="460">
+  <!-- Background -->
+  <rect width="580" height="460" fill="#070F24" rx="16"/>
+
+  <!-- Ambient glows -->
+  <circle cx="480" cy="90" r="140" fill="#00A8C6" opacity="0.07"/>
+  <circle cx="100" cy="370" r="110" fill="#C9A84C" opacity="0.07"/>
+  <circle cx="290" cy="230" r="180" fill="#0D1B35" opacity="0.5"/>
+
+  <!-- ── OPEN BOOK ── -->
+  <g transform="translate(110, 110)">
+    <!-- Shadow -->
+    <ellipse cx="180" cy="178" rx="165" ry="12" fill="#000" opacity="0.25"/>
+    <!-- Left cover -->
+    <path d="M180 10 L10 32 L10 170 L180 148 Z" fill="#0A1830" stroke="#C9A84C" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Right cover -->
+    <path d="M180 10 L350 32 L350 170 L180 148 Z" fill="#0A1830" stroke="#C9A84C" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Spine highlight -->
+    <line x1="180" y1="10" x2="180" y2="148" stroke="#C9A84C" stroke-width="3"/>
+    <!-- Left page lines (text simulation) -->
+    <line x1="30" y1="58"  x2="158" y2="51" stroke="#C9A84C" stroke-width="1" opacity="0.35"/>
+    <line x1="30" y1="75"  x2="158" y2="68" stroke="#C9A84C" stroke-width="1" opacity="0.35"/>
+    <line x1="30" y1="92"  x2="158" y2="85" stroke="#C9A84C" stroke-width="1" opacity="0.35"/>
+    <line x1="30" y1="109" x2="158" y2="102" stroke="#C9A84C" stroke-width="1" opacity="0.35"/>
+    <line x1="30" y1="126" x2="120" y2="120" stroke="#C9A84C" stroke-width="1" opacity="0.35"/>
+    <!-- Medical cross right page -->
+    <rect x="234" y="52" width="40" height="13" rx="3" fill="#00A8C6" opacity="0.85"/>
+    <rect x="247" y="39" width="13" height="40" rx="3" fill="#00A8C6" opacity="0.85"/>
+    <!-- Right page subtext lines -->
+    <line x1="202" y1="112" x2="330" y2="118" stroke="#F0F4FF" stroke-width="1" opacity="0.18"/>
+    <line x1="202" y1="128" x2="330" y2="134" stroke="#F0F4FF" stroke-width="1" opacity="0.18"/>
+    <line x1="202" y1="144" x2="280" y2="150" stroke="#F0F4FF" stroke-width="1" opacity="0.18"/>
+  </g>
+
+  <!-- ── STETHOSCOPE ── -->
+  <g transform="translate(55, 245)">
+    <path d="M72 0 Q72 55 130 75 Q188 95 188 155" fill="none" stroke="#00A8C6" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M108 0 Q108 55 130 75" fill="none" stroke="#00A8C6" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Earpiece dots -->
+    <circle cx="72"  cy="0"   r="8" fill="#00A8C6"/>
+    <circle cx="108" cy="0"   r="8" fill="#00A8C6"/>
+    <!-- Chest piece ring -->
+    <circle cx="188" cy="155" r="24" fill="#070F24" stroke="#00A8C6" stroke-width="3.5"/>
+    <circle cx="188" cy="155" r="13" fill="#00A8C6" opacity="0.25"/>
+    <circle cx="188" cy="155" r="5"  fill="#00A8C6" opacity="0.7"/>
+  </g>
+
+  <!-- ── GRADUATION CAP ── -->
+  <g transform="translate(348, 52)">
+    <!-- Shadow -->
+    <ellipse cx="90" cy="68" rx="78" ry="8" fill="#000" opacity="0.2"/>
+    <!-- Board base -->
+    <polygon points="90,28 176,54 90,80 4,54" fill="#C9A84C" opacity="0.85"/>
+    <!-- Top face -->
+    <polygon points="90,8 176,34 90,60 4,34" fill="#F0D080"/>
+    <!-- Vertical pole -->
+    <line x1="90" y1="8" x2="90" y2="54" stroke="#C9A840" stroke-width="3.5"/>
+    <!-- Tassel cord -->
+    <line x1="176" y1="34" x2="176" y2="100" stroke="#C9A84C" stroke-width="2.5"/>
+    <!-- Tassel ball -->
+    <circle cx="176" cy="100" r="6" fill="#C9A84C"/>
+    <!-- Tassel fringe -->
+    <line x1="170" y1="100" x2="165" y2="118" stroke="#C9A84C" stroke-width="1.5"/>
+    <line x1="176" y1="106" x2="174" y2="120" stroke="#C9A84C" stroke-width="1.5"/>
+    <line x1="182" y1="100" x2="187" y2="118" stroke="#C9A84C" stroke-width="1.5"/>
+  </g>
+
+  <!-- ── PATHWAY ARROW ── -->
+  <g transform="translate(150, 340)" opacity="0.55">
+    <line x1="0" y1="20" x2="240" y2="20" stroke="#C9A84C" stroke-width="2" stroke-dasharray="6 4"/>
+    <polygon points="240,12 260,20 240,28" fill="#C9A84C"/>
+    <!-- Step dots -->
+    <circle cx="40"  cy="20" r="5" fill="#C9A84C"/>
+    <circle cx="100" cy="20" r="5" fill="#C9A84C"/>
+    <circle cx="160" cy="20" r="5" fill="#C9A84C"/>
+    <circle cx="220" cy="20" r="5" fill="#C9A84C"/>
+    <!-- Labels -->
+    <text x="40"  y="40" font-family="sans-serif" font-size="9" fill="#C9A84C" text-anchor="middle" opacity="0.8">Grade 10</text>
+    <text x="100" y="40" font-family="sans-serif" font-size="9" fill="#C9A84C" text-anchor="middle" opacity="0.8">Pre-Med</text>
+    <text x="160" y="40" font-family="sans-serif" font-size="9" fill="#C9A84C" text-anchor="middle" opacity="0.8">MCAT</text>
+    <text x="220" y="40" font-family="sans-serif" font-size="9" fill="#C9A84C" text-anchor="middle" opacity="0.8">Med School</text>
+  </g>
+
+  <!-- ── BADGE CARD ── -->
+  <rect x="24" y="345" width="115" height="90" rx="10" fill="#0D1B35" stroke="#C9A84C" stroke-width="1" opacity="0.9"/>
+  <text x="82" y="370" font-family="Georgia, serif" font-size="9" fill="#C9A84C" text-anchor="middle" letter-spacing="1.5" opacity="0.9">NOBLE VISION</text>
+  <line x1="44" y1="378" x2="120" y2="378" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+  <text x="82" y="398" font-family="Georgia, serif" font-size="12" fill="#F0F4FF" text-anchor="middle" font-style="italic">From Grade 10</text>
+  <text x="82" y="416" font-family="Georgia, serif" font-size="12" fill="#F0D080" text-anchor="middle" font-style="italic">to M.D.</text>
+
+  <!-- ── DECORATIVE SPARKLES ── -->
+  <text x="470" y="290" font-size="20" fill="#C9A84C" opacity="0.35">✦</text>
+  <text x="55"  y="180" font-size="13" fill="#00A8C6" opacity="0.3">✦</text>
+  <text x="510" y="420" font-size="11" fill="#C9A84C" opacity="0.3">✦</text>
+  <text x="290" y="28"  font-size="9"  fill="#F0F4FF" opacity="0.25">✦</text>
+  <circle cx="540" cy="160" r="3" fill="#00A8C6" opacity="0.4"/>
+  <circle cx="38"  cy="82"  r="2.5" fill="#C9A84C" opacity="0.4"/>
+  <circle cx="520" cy="340" r="3.5" fill="#C9A84C" opacity="0.3"/>
+</svg>
