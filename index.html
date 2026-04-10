@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noble Vision | Educational Consultancy — Path to Medical School</title>
+  <meta name="description" content="Noble Vision Educational Consultancy guides motivated students from Grade 10 to medical school with structured roadmaps, expert mentorship, and proven application strategies." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     SECTION: GLOBAL NAVIGATION / HEADER
+     To edit: update components/_header.html then copy here.
+     ============================================================ -->
+<header class="site-header" id="site-header">
+  <nav class="nav-container">
+    <a href="index.html" class="nav-logo" aria-label="Noble Vision Home">
+      <div class="logo-mark">NV</div>
+      <div class="nav-logo-text">
+        <span class="logo-name">Noble Vision</span>
+        <span class="logo-sub">Educational Consultancy</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html"    class="active">Home</a></li>
+      <li><a href="about.html"              >About</a></li>
+      <li><a href="services.html"           >Services</a></li>
+      <li><a href="pathway.html"            >Pathway</a></li>
+      <li><a href="contact.html"            >Contact</a></li>
+    </ul>
+    <a href="contact.html#register" class="btn btn--primary nav-cta">Register Now</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+<!-- END: GLOBAL NAVIGATION / HEADER -->
+
+
+<main class="page-wrapper">
+
+  <!-- ============================================================
+       SECTION: HERO
+       Full-viewport intro with headline and CTA buttons.
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="bg-glow bg-glow--blue"  style="top:-80px;  left:-120px;"></div>
+    <div class="bg-glow bg-glow--gold"  style="bottom:-60px; right:-80px;"></div>
+
+    <div class="container hero-layout">
+      <!-- Hero Text -->
+      <div class="hero-content">
+        <div class="hero-label">Noble Vision Educational Consultancy</div>
+        <h1 class="hero-title">
+          Your Path to
+          <span class="text-gradient-gold">Medical School</span>
+          Starts Here
+        </h1>
+        <p class="hero-description">
+          Expert, personalised guidance from Grade 10 through medical school
+          admission. We provide structured roadmaps, one-on-one mentorship,
+          and proven application strategies — so you never navigate alone.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html#register" class="btn btn--primary btn--lg">
+            <i class="fa-solid fa-compass"></i>&nbsp; Begin Your Journey
+          </a>
+          <a href="pathway.html" class="btn btn--ghost btn--lg">
+            View the Pathway
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Image Column -->
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img
+            src="https://via.placeholder.com/580x460/0D1B35/C9A84C?text=Noble+Vision"
+            alt="Noble Vision — Path to Medical School"
+            class="hero-image"
+          />
+          <div class="hero-stat-bubble hero-stat-bubble--left">
+            <span class="bubble-num">20+</span>
+            <span class="bubble-txt">Years of Experience</span>
+          </div>
+          <div class="hero-stat-bubble hero-stat-bubble--right">
+            <span class="bubble-num">100%</span>
+            <span class="bubble-txt">Personalised Guidance</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION HERO -->
+
+
+  <!-- ============================================================
+       SECTION: MISSION STATEMENT
+       A centred pull-quote establishing brand identity.
+       ============================================================ -->
+  <section class="section section--sm" id="mission-statement">
+    <div class="container">
+      <div class="section-header fade-in">
+        <blockquote style="max-width:780px; margin:0 auto; text-align:center;">
+          <p style="font-family:var(--font-heading); font-size:clamp(1.2rem,2.5vw,1.6rem); color:var(--color-text-primary); font-style:italic; line-height:1.6; margin-bottom:var(--space-6);">
+            "To guide motivated students and support their families with a clear,
+            well-structured journey from high school to medical school — developing
+            both academic excellence and strong character."
+          </p>
+          <footer style="font-family:var(--font-label); font-size:var(--text-xs); letter-spacing:0.16em; text-transform:uppercase; color:var(--color-gold);">
+            — The Noble Vision Mission
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION MISSION STATEMENT -->
+
+
+  <!-- ============================================================
+       SECTION: WHAT WE DO — Overview Cards
+       Three core service pillars with icons.
+       ============================================================ -->
+  <section class="section section--alt" id="what-we-do">
+    <div class="bg-glow bg-glow--teal" style="top:50%; left:50%; transform:translate(-50%,-50%);"></div>
+
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Comprehensive Guidance, <span class="text-gradient-gold">Every Step</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+          Noble Vision offers end-to-end support — from choosing the right
+          high-school subjects to submitting your medical school application.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Card 1 -->
+        <div class="card card--feature fade-in fade-in-delay-1">
+          <div class="card__icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <h3 class="card__title">Structured Roadmap</h3>
+          <p class="card__text">
+            A clear, step-by-step plan starting from Grade 10 — covering
+            subject selection, entrance exam preparation (SAT / MCAT),
+            extracurriculars, and documentation.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card--feature fade-in fade-in-delay-2">
+          <div class="card__icon card__icon--teal">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3 class="card__title">Expert Mentorship</h3>
+          <p class="card__text">
+            Led by Dr. Natarajan Venkatayan MD, a physician with 20+ years of
+            clinical and academic experience, including multiple residency
+            program director roles.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card card--feature fade-in fade-in-delay-3">
+          <div class="card__icon">
+            <i class="fa-solid fa-file-pen"></i>
+          </div>
+          <h3 class="card__title">Application Support</h3>
+          <p class="card__text">
+            Personal statement editing, interview preparation, school
+            shortlisting, letters of recommendation strategy, and final
+            application review.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION WHAT WE DO -->
+
+
+  <!-- ============================================================
+       SECTION: WHY NOBLE VISION — Stats + Key Highlights
+       ============================================================ -->
+  <section class="section" id="why-noble-vision">
+    <div class="container">
+
+      <div class="section-header fade-in">
+        <span class="section-label">Why Noble Vision</span>
+        <h2 class="section-title">Built on <span class="text-gradient-gold">Real Experience</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Stats Row -->
+      <div class="grid-4" style="margin-bottom: var(--space-16);">
+        <div class="card card--stat fade-in fade-in-delay-1">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Years Clinical &amp; Academic Experience</span>
+        </div>
+        <div class="card card--stat fade-in fade-in-delay-2">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Residency Program Director Roles</span>
+        </div>
+        <div class="card card--stat fade-in fade-in-delay-3">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Personalised Guidance Plans</span>
+        </div>
+        <div class="card card--stat fade-in fade-in-delay-4">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Commitment to Your Future</span>
+        </div>
+      </div>
+
+      <!-- Two-column highlights -->
+      <div class="grid-2">
+        <div class="fade-in">
+          <span class="section-label" style="margin-bottom:var(--space-6); display:inline-block;">For Students</span>
+          <h3 style="margin-bottom:var(--space-6);">Turn Ambition into a <span class="text-gradient-gold">Medical Career</span></h3>
+          <ul class="check-list">
+            <li>Personalised study plans from Grade 10 onwards</li>
+            <li>SAT / MCAT preparation timeline and resource guidance</li>
+            <li>Profile-building through meaningful extracurriculars</li>
+            <li>Interview coaching and personal statement workshops</li>
+            <li>Honest progress reviews and course corrections</li>
+            <li>Character development alongside academic success</li>
+          </ul>
+          <a href="services.html#students" class="btn btn--secondary" style="margin-top:var(--space-8);">Services for Students</a>
+        </div>
+
+        <div class="fade-in fade-in-delay-2">
+          <span class="section-label" style="margin-bottom:var(--space-6); display:inline-block;">For Parents</span>
+          <h3 style="margin-bottom:var(--space-6);">Clarity, Security &amp; a <span class="text-gradient-gold">Defined Plan</span></h3>
+          <ul class="check-list">
+            <li>Step-by-step roadmap from Grade 10 to medical school</li>
+            <li>Regular progress check-ins and transparent reporting</li>
+            <li>Early identification of gaps and proactive solutions</li>
+            <li>Guidance on selecting schools and university programs</li>
+            <li>Emotional resilience and well-being support</li>
+            <li>Ethical values and character at the core of everything</li>
+          </ul>
+          <a href="services.html#parents" class="btn btn--secondary" style="margin-top:var(--space-8);">Services for Parents</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- END: SECTION WHY NOBLE VISION -->
+
+
+  <!-- ============================================================
+       SECTION: FOUNDER SPOTLIGHT
+       Brief introduction to Dr. Natarajan Venkatayan.
+       ============================================================ -->
+  <section class="section section--alt" id="founder-spotlight">
+    <div class="bg-glow bg-glow--gold" style="right:-100px; top:50%; transform:translateY(-50%);"></div>
+
+    <div class="container">
+      <div class="grid-2" style="align-items:center; gap:var(--space-16);">
+
+        <!-- Image -->
+        <div class="fade-in" style="position:relative;">
+          <img
+            src="IMG-2202-face.jpg"
+            alt="Dr. Natarajan Venkatayan MD"
+            style="width:100%; border-radius:var(--radius-xl); border:1px solid var(--color-border); box-shadow:var(--shadow-card), var(--shadow-gold);"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="fade-in fade-in-delay-2">
+          <span class="section-label">Meet the Founder</span>
+          <h2 style="margin-bottom:var(--space-2);">Dr. Natarajan<br><span class="text-gradient-gold">Venkatayan, MD</span></h2>
+          <p style="font-family:var(--font-label); font-size:var(--text-xs); letter-spacing:0.12em; text-transform:uppercase; color:var(--color-teal); margin-bottom:var(--space-6);">
+            American Board of Family Medicine &nbsp;|&nbsp; Family Medicine Residency Program Director
+          </p>
+          <p>
+            With over <strong>20 years of clinical, academic, and administrative
+            experience</strong> in Family Medicine and Graduate Medical Education,
+            Dr. Venkatayan brings unmatched insight into what medical schools seek
+            in their candidates.
+          </p>
+          <p>
+            A passionate educator and mentor, he has directed residency programs
+            at multiple institutions, served as Clinical Associate Professor at the
+            University of Houston, and mentored hundreds of residents and students
+            on their journey into medicine.
+          </p>
+          <a href="about.html" class="btn btn--primary" style="margin-top:var(--space-6);">
+            Full Profile &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION FOUNDER SPOTLIGHT -->
+
+
+  <!-- ============================================================
+       SECTION: PATHWAY PREVIEW
+       A five-step horizontal snapshot linking to the full pathway.
+       ============================================================ -->
+  <section class="section" id="pathway-preview">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">The Journey</span>
+        <h2 class="section-title">From High School to <span class="text-gradient-gold">Doctor</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+          Understanding the full path from Day 1 gives you the planning
+          advantage that makes all the difference.
+        </p>
+      </div>
+
+      <div class="grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));">
+        <!-- Step 1 -->
+        <div class="card fade-in fade-in-delay-1" style="text-align:center;">
+          <div class="card__icon" style="margin:0 auto var(--space-4);">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div style="font-family:var(--font-display); font-size:var(--text-xs); color:var(--color-gold); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:var(--space-2);">Step 01</div>
+          <h4 class="card__title" style="font-size:var(--text-lg);">High School</h4>
+          <p class="card__text" style="font-size:var(--text-xs);">Grades 9–12 · Science foundation, SAT prep, extracurriculars</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="card fade-in fade-in-delay-2" style="text-align:center;">
+          <div class="card__icon" style="margin:0 auto var(--space-4);">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <div style="font-family:var(--font-display); font-size:var(--text-xs); color:var(--color-gold); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:var(--space-2);">Step 02</div>
+          <h4 class="card__title" style="font-size:var(--text-lg);">Pre-Med</h4>
+          <p class="card__text" style="font-size:var(--text-xs);">4-year undergraduate · Pre-med prerequisites, clinical exposure</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="card fade-in fade-in-delay-3" style="text-align:center;">
+          <div class="card__icon card__icon--teal" style="margin:0 auto var(--space-4);">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <div style="font-family:var(--font-display); font-size:var(--text-xs); color:var(--color-gold); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:var(--space-2);">Step 03</div>
+          <h4 class="card__title" style="font-size:var(--text-lg);">MCAT</h4>
+          <p class="card__text" style="font-size:var(--text-xs);">Medical College Admissions Test · Strategic study timeline</p>
+        </div>
+        <!-- Step 4 -->
+        <div class="card fade-in fade-in-delay-4" style="text-align:center;">
+          <div class="card__icon" style="margin:0 auto var(--space-4);">
+            <i class="fa-solid fa-file-medical"></i>
+          </div>
+          <div style="font-family:var(--font-display); font-size:var(--text-xs); color:var(--color-gold); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:var(--space-2);">Step 04</div>
+          <h4 class="card__title" style="font-size:var(--text-lg);">Applications</h4>
+          <p class="card__text" style="font-size:var(--text-xs);">Personal statement, interviews, school shortlisting</p>
+        </div>
+        <!-- Step 5 -->
+        <div class="card fade-in" style="text-align:center; transition-delay:0.5s;">
+          <div class="card__icon" style="margin:0 auto var(--space-4);">
+            <i class="fa-solid fa-stethoscope"></i>
+          </div>
+          <div style="font-family:var(--font-display); font-size:var(--text-xs); color:var(--color-gold); letter-spacing:0.15em; text-transform:uppercase; margin-bottom:var(--space-2);">Step 05</div>
+          <h4 class="card__title" style="font-size:var(--text-lg);">Medical School</h4>
+          <p class="card__text" style="font-size:var(--text-xs);">4 years MD · Residency 3–7 years · Your career begins</p>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:var(--space-12);" class="fade-in">
+        <a href="pathway.html" class="btn btn--secondary btn--lg">
+          Explore the Full Pathway &nbsp;<i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION PATHWAY PREVIEW -->
+
+
+  <!-- ============================================================
+       SECTION: CTA BAND
+       Bottom call-to-action before footer.
+       ============================================================ -->
+  <section class="cta-band" id="cta">
+    <div class="container">
+      <span class="section-label" style="margin-bottom:var(--space-5); display:inline-block;">Ready to Start?</span>
+      <h2 class="cta-band__title">
+        Take the First Step Toward Your <span class="text-gradient-gold">Medical Career</span>
+      </h2>
+      <p class="cta-band__sub">
+        Register today and let us build a personalised roadmap tailored
+        to your goals, background, and timeline.
+      </p>
+      <div class="cta-band__actions">
+        <a href="contact.html#register" class="btn btn--primary btn--lg">
+          <i class="fa-solid fa-pen-to-square"></i>&nbsp; Register Now
+        </a>
+        <a href="contact.html" class="btn btn--ghost btn--lg">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- END: SECTION CTA BAND -->
+
+</main>
+
+
+<!-- ============================================================
+     SECTION: GLOBAL FOOTER
+     To edit: update components/_footer.html then copy here.
+     ============================================================ -->
+<footer class="site-footer" id="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="logo-mark" style="margin-bottom:1rem;">NV</div>
+        <p style="font-family:var(--font-display); font-size:1.05rem; color:var(--color-text-primary); letter-spacing:0.06em; margin-bottom:0.25rem;">Noble Vision</p>
+        <p style="font-family:var(--font-label); font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--color-gold); margin-bottom:0;">Educational Consultancy</p>
+        <p class="footer-tagline">Guiding ambitious students and supportive families on a clear, structured journey from high school to medical school.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="mailto:Noblevision.educs@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="pathway.html">Medical Pathway</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html#register">Register Now</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#students">For Students</a></li>
+          <li><a href="services.html#parents">For Parents</a></li>
+          <li><a href="services.html#applications">Application Support</a></li>
+          <li><a href="services.html#interview">Interview Prep</a></li>
+          <li><a href="services.html#personal-statement">Personal Statements</a></li>
+          <li><a href="services.html#mentorship">Mentorship</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contact</h4>
+        <div class="footer-contact-item"><i class="fa-solid fa-envelope footer-contact-icon"></i><span>Noblevision.educs@gmail.com</span></div>
+        <div class="footer-contact-item"><i class="fa-solid fa-phone footer-contact-icon"></i><span>+1 (555) 000-1234</span></div>
+        <div class="footer-contact-item"><i class="fa-solid fa-location-dot footer-contact-icon"></i><span>Texas, United States<br>Serving students globally</span></div>
+        <div class="footer-contact-item"><i class="fa-solid fa-clock footer-contact-icon"></i><span>Mon – Sat: 9 AM – 7 PM CST</span></div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2026 Noble Vision Educational Consultancy. All rights reserved.</p>
+      <nav class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Disclaimer</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<!-- END: GLOBAL FOOTER -->
+
+<script src="js/main.js"></script>
+</body>
+</html>

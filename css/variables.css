@@ -1,0 +1,126 @@
+/*
+ * ====================================================
+ *  NOBLE VISION — CSS CUSTOM PROPERTIES (variables.css)
+ *  Edit this file to change colors, fonts, and spacing
+ *  across the entire website.
+ * ====================================================
+ */
+
+:root {
+
+  /* ===========================
+     COLOR PALETTE
+     =========================== */
+
+  /* Backgrounds */
+  --color-bg-base:       #030B1A;   /* deepest background */
+  --color-bg-dark:       #070F24;   /* main body background */
+  --color-bg-card:       rgba(13, 27, 53, 0.85);  /* card background */
+  --color-bg-card-solid: #0D1B35;   /* solid card (no transparency) */
+  --color-bg-elevated:   #0E2040;   /* elevated surfaces */
+  --color-bg-input:      #0A1628;   /* form input background */
+
+  /* Gold / Prestige */
+  --color-gold:          #C9A84C;
+  --color-gold-light:    #F0D080;
+  --color-gold-dark:     #9A7A2A;
+
+  /* Blue / Trust */
+  --color-blue:          #1E6FCC;
+  --color-blue-light:    #5BA3E8;
+
+  /* Teal / Innovation */
+  --color-teal:          #00A8C6;
+  --color-teal-light:    #4DD0E1;
+
+  /* Text */
+  --color-text-primary:   #F0F4FF;
+  --color-text-secondary: #8894A8;
+  --color-text-muted:     #44556A;
+
+  /* Borders */
+  --color-border:         rgba(201, 168, 76, 0.15);
+  --color-border-hover:   rgba(201, 168, 76, 0.40);
+  --color-divider:        rgba(144, 179, 219, 0.07);
+
+  /* ===========================
+     GRADIENTS
+     =========================== */
+  --gradient-gold:    linear-gradient(135deg, #9A7A2A 0%, #C9A84C 40%, #F0D080 70%, #C9A84C 100%);
+  --gradient-gold-h:  linear-gradient(90deg, #C9A84C, #F0D080, #C9A84C);
+  --gradient-blue:    linear-gradient(135deg, #0D47A1, #1E6FCC);
+  --gradient-hero:    linear-gradient(135deg, #030B1A 0%, #070F24 55%, #0A1826 100%);
+  --gradient-card:    linear-gradient(135deg, rgba(13, 27, 53, 0.9), rgba(8, 16, 36, 0.95));
+  --gradient-section-alt: linear-gradient(180deg, #070F24 0%, #030B1A 100%);
+
+  /* ===========================
+     TYPOGRAPHY
+     =========================== */
+  --font-display:  'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-heading:  'Playfair Display', Georgia, serif;
+  --font-body:     'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-label:    'Montserrat', 'Inter', sans-serif;
+
+  /* Type scale */
+  --text-xs:   0.75rem;    /*  12px */
+  --text-sm:   0.875rem;   /*  14px */
+  --text-base: 1rem;       /*  16px */
+  --text-lg:   1.125rem;   /*  18px */
+  --text-xl:   1.25rem;    /*  20px */
+  --text-2xl:  1.5rem;     /*  24px */
+  --text-3xl:  1.875rem;   /*  30px */
+  --text-4xl:  2.25rem;    /*  36px */
+  --text-5xl:  3rem;       /*  48px */
+  --text-6xl:  3.75rem;    /*  60px */
+
+  /* ===========================
+     SPACING SCALE
+     =========================== */
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-5:   1.25rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-10:  2.5rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-20:  5rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
+
+  /* ===========================
+     LAYOUT
+     =========================== */
+  --container-max:  1200px;
+  --nav-height:     80px;
+
+  /* ===========================
+     BORDER RADIUS
+     =========================== */
+  --radius-sm:   4px;
+  --radius-md:   10px;
+  --radius-lg:   18px;
+  --radius-xl:   28px;
+  --radius-full: 9999px;
+
+  /* ===========================
+     SHADOWS & EFFECTS
+     =========================== */
+  --shadow-base:   0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-card:   0 8px 32px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.3);
+  --shadow-gold:   0 0 24px rgba(201, 168, 76, 0.18), 0 0 64px rgba(201, 168, 76, 0.06);
+  --shadow-blue:   0 0 32px rgba(30, 111, 204, 0.18);
+  --glow-gold:     0 0 32px rgba(201, 168, 76, 0.28);
+
+  --blur-glass:    blur(14px);
+  -webkit-backdrop-filter: var(--blur-glass);
+
+  /* ===========================
+     TRANSITIONS
+     =========================== */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.30s ease;
+  --transition-slow: 0.55s ease;
+}
